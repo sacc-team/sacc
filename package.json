@@ -1,0 +1,22 @@
+{
+  "name": "sacc",
+  "version": "0.0.1",
+  "description": "我的前端基建",
+  "private": true,
+  "scripts": {
+    "i": "pnpm install",
+    "start": "lerna run start",
+    "build": "lerna run build --sort --stream",
+    "version": "lerna version",
+    "publish": "lerna publish from-package",
+    "publish-git": "lerna publish from-git",
+    "publish-beta": "lerna publish --dist-tag beta"
+  },
+  "devDependencies": {
+    "lerna": "^7.4.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  }
+}
