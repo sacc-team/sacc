@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "开发规范",
   "main": "index.js",
-  "author": "salman <vvs009@qq.com>",
+  "author": "salman",
   "license": "ISC",
   "dependencies": {
     "prettier": "^3.1.1"
